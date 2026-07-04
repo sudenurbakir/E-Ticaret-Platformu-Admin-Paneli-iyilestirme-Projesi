@@ -2,7 +2,11 @@
 
 PROJE ADI: E-Ticaret Platformu Admin Paneli İyileştirme Projesi
 
+
+
 Hazırlayan: Sudenur Bakır
+
+
 
 Tarih: Temmuz 2026
 
