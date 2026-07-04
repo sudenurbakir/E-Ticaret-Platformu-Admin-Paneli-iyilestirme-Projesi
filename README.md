@@ -1,7 +1,11 @@
 # E-Ticaret-Platformu-Admin-Paneli-iyilestirme-Projesi
+
 PROJE ADI: E-Ticaret Platformu Admin Paneli İyileştirme Projesi
+
 Hazırlayan: Sudenur Bakır
+
 Tarih: Temmuz 2026
+
  1. Giriş / Proje Özeti
 
 Bu proje, bir e-ticaret platformunun admin panelinin iş analizi ve iyileştirme çalışmalarını kapsamaktadır. Mevcut sistemde yaşanan yavaşlık, manuel işlemler ve yetersiz raporlama sorunları hedeflenmiştir.
