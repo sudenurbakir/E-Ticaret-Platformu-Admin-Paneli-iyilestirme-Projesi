@@ -1,1 +1,1 @@
-# E-Ticaret-Platformu-Admin-Paneli-yile-tirme-Projesi
+# E-Ticaret-Platformu-Admin-Paneli-iyilestirme-Projesi
