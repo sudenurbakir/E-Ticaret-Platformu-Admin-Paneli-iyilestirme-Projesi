@@ -1,0 +1,38 @@
+2. İş Problemleri ve Fırsatlar 
+Mevcut Durumda Yaşanan Sorunlar:
+
+Sipariş Yönetimi Süreçleri Çok Yavaş
+* Siparişler manuel olarak kontrol ediliyor.
+* Onay süresi ortalama 6-10 dakika sürüyor.
+* Müşteri hizmetleri sürekli “sipariş nerede?” sorusuyla uğraşıyor.
+Stok Yönetimi Sorunları
+* Stok güncellemeleri manuel yapılıyor.
+* Gerçek stok ile sistem stok arasında uyumsuzluklar oluşuyor.
+* “Stokta var” diye satılıp sonra iptal edilen sipariş oranı yüksek (%12).
+Raporlama ve Analiz Zayıf
+* Yöneticiler raporları Excel’de manuel hazırlıyor.
+* Günlük/haftalık satış, iade, en çok satan ürün raporları gecikmeli çıkıyor.
+* Karar alma süreci yavaşlıyor.
+Admin Paneli Kullanılabilirlik Problemleri
+* Arayüz eski ve karmaşık.
+* Yeni admin personeli 2-3 hafta eğitim alıyor.
+* Arama ve filtreleme fonksiyonları yetersiz.
+Kampanya ve İndirim Yönetimi
+* Kampanyalar manuel tanımlanıyor, çakışmalar oluyor.
+* Kampanya performans takibi zor.
+
+Fırsatlar (Bu Proje ile Sağlanacak Kazanımlar):
+* Sipariş onay süresini ortalama 1 dakikaya indirmek
+* Stok doğruluğunu %97+ seviyesine çıkarmak
+* Yönetici raporlama süresini %70 azaltmak
+* Yeni admin personeli eğitim süresini 1 haftaya düşürmek
+* Genel operasyonel verimliliği artırarak aylık operasyon maliyetini düşürmek
+
+Fırsatlar ve Beklenen Kazanımlar:
+* Sipariş onay süresini 1 dakikaya indirmek
+* Stok doğruluğunu %97+ seviyesine çıkarmak
+* Kargo takip ve müdahale süresini %65 azaltmak
+* İade süreçlerini hızlandırarak müşteri memnuniyetini artırmak
+* Gerçek zamanlı dashboard’lar ile karar alma kalitesini yükseltmek
+* Müşteri segmentasyonu sayesinde hedefli kampanyalar ile satışları %20-30 artırmak
+* Admin paneli kullanım kolaylığını artırarak personel eğitim süresini 1 haftaya düşürmek
