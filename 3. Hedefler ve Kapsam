@@ -1,0 +1,57 @@
+3. Hedefler ve Kapsam
+
+3.1. İş Hedefleri (Business Objectives)
+Bu proje tamamlandığında aşağıdaki hedeflere ulaşılmış olacak:
+1. Operasyonel Verimlilik
+    * Sipariş onay süresini ortalama 6-10 dakikadan 1 dakikaya indirmek.
+    * İade onay süresini %50 azaltmak.
+2. Stok ve Lojistik Doğruluğu
+    * Stok uyumsuzluk oranını %12’den %3’ün altına düşürmek.
+    * Kargo entegrasyonu sayesinde takip ve müdahale süresini %65 iyileştirmek.
+3. Raporlama ve Karar Alma
+    * Gerçek zamanlı dashboard’lar ile rapor hazırlama süresini %70 azaltmak.
+    * Yönetici karar alma kalitesini artırmak.
+4. Kullanıcı Deneyimi ve İç Verimlilik
+    * Admin paneli kullanım memnuniyetini en az %40 artırmak.
+    * Yeni admin personelinin eğitim süresini 2-3 haftadan 5-7 güne düşürmek.
+5. İş Gelişimi
+    * Müşteri segmentasyonu sayesinde hedefli kampanyalar ile satışları %15-25 artırmak (dolaylı hedef).
+
+3.2. Proje Kapsamı (Scope)
+1. Ürün Yönetimi Modülü
+    * Yeni ürün ekleme, mevcut ürün güncelleme, toplu ürün yükleme (Excel import)
+    * Ürün kategorileri, varyant yönetimi (renk, beden vb.), fiyat yönetimi
+2. Sipariş Yönetimi Modülü
+    * Sipariş listeleme, detay görüntüleme, onay, iptal, kısmi kargo
+    * Sipariş durumu takibi ve bildirim sistemi
+3. Stok ve Tedarik Yönetimi
+    * Gerçek zamanlı stok takibi
+    * Tedarikçi yönetimi, stok uyarısı (low stock), manuel ve toplu stok güncelleme
+4. Kargo Entegrasyonu ve Takibi
+    * Kargo firmalarıyla temel API entegrasyonu (kargo oluşturma, etiket basma, takip numarası)
+    * Kargo durumu takibi ve gecikme uyarıları
+5. İade ve Değişim Süreçleri
+    * İade talebi oluşturma, onay/red, iade stok güncellemesi
+    * İade neden analizi ve raporlaması
+6. Müşteri Yönetimi ve Basit Segmentasyon
+    * Müşteri bilgileri görüntüleme ve güncelleme
+    * Basit segmentasyon (yeni müşteri, sadık müşteri, yüksek harcama vb.)
+7. Kampanya ve İndirim Yönetimi
+    * Kampanya oluşturma, süre ve koşul tanımlama
+    * Kampanya performans takibi
+8. Raporlama ve Dashboard
+    * Gerçek zamanlı ana dashboard (satış, sipariş, stok özeti)
+    * Satış raporu, iade raporu, kampanya raporu, stok raporu
+    * Filtreleme ve export (Excel) özellikleri
+9. Rol Bazlı Yetki Sistemi (RBAC)
+    * Farklı roller için yetki tanımlama (Süper Admin, Operasyon, Finans, Müşteri Hizmetleri)
+    * Güvenlik ve erişim kontrolü
+
+
+Kapsam Dışında (Out of Scope):
+1. Müşteri Tarafı (Frontend) E-Ticaret Sitesi Geliştirilmesi Bu proje sadece admin paneline odaklanmaktadır. Müşterilerin gördüğü web sitesi (ürün sayfası, sepet, ödeme sayfası vb.) bu projenin kapsamında değildir.
+2. Ödeme Sistemleri Entegrasyonu Kredi kartı, havale, kapıda ödeme gibi ödeme gateway’leri ile yeni entegrasyon çalışması yapılmayacaktır. Sadece mevcut ödeme durumlarının admin panelinde görüntülenmesi yapılacaktır.
+3. Mobil Admin Uygulaması Geliştirilmesi Admin paneli sadece web tabanlı (responsive tasarım) olarak hazırlanacaktır. Ayrı bir iOS/Android mobil admin uygulaması bu projenin kapsamında yer almamaktadır.
+4. Yapay Zeka Tabanlı İleri Seviye Tahmin Modelleri Talep tahmini, churn analizi, ileri seviye makine öğrenmesi modelleri bu fazda geliştirilmeyecektir. İleriki fazlarda değerlendirilebilir.
+5. Tam Muhasebe / ERP Entegrasyonu Finansal muhasebe sistemleri (fatura kesimi, defter tutulması, vergi entegrasyonu) bu projede yer almayacaktır. Sadece satış, iade ve stok raporlarının admin panelinde gösterilmesi yapılacaktır.
+6. Müşteri Verisi Analitiği ve GDPR Uyumluluğu (Ekstra) Detaylı müşteri davranış analitiği ve büyük veri işleme altyapısı bu projenin dışında tutulmuştur.
