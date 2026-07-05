@@ -1,0 +1,34 @@
+İade ve Değişim Süreçleri 
+İade Talebi Alma
+
+Birincil Yol (Otomatik): Müşteri, kendi e-ticaret sitesinden (müşteri panelinden) iade talebi oluşturabilecek. Bu talep otomatik olarak admin paneline düşecek.
+İkincil Yol (Manuel): Müşteri müşteri hizmetlerini aradığında veya mesaj attığında, Admin / Müşteri Hizmetleri ekibi admin panelinden manuel iade talebi oluşturabilecek.
+
+Her iki durumda da:
+
+Sipariş numarası girildiğinde sipariş detayları (ürünler, fiyat, kargo bilgisi) otomatik olarak gelecektir.
+İade nedeni zorunlu olarak seçilecektir (Beden uymadı, Ürün hatalı, Renk beğenilmedi, Yanlış ürün geldi vb.).
+Müşteri iade talebine fotoğraf/video yükleyebilecektir (müşteri tarafından veya admin tarafından eklenebilir).
+
+İade Akışı Özeti:
+
+Müşteri siteden iade talebi oluşturur → Admin paneline “Bekleyen İade Talepleri” olarak düşer.
+Admin / Müşteri Hizmetleri talebi inceler (fotoğraflar, neden vb.).
+Onay / Red / Ek bilgi iste seçenekleri.
+Onaylandıktan sonra:
+İade kodu (RMA) üretilir.
+Müşteriye e-posta/SMS ile iade adresi ve kodu gönderilir.
+Stok otomatik olarak güncellenir (ürün iade edildiğinde).
+Finansal iade kaydı oluşturulur.
+
+Ek Özellikler:
+
+İade süresi kontrolü (örneğin 14 gün içinde mi?)
+Aynı müşterinin sık iade etme durumu için uyarı sistemi.
+İade nedenlerine göre raporlama (hangi ürünlerde en çok iade oluyor?)
+
+Raporlama:
+
+İade Oranı raporu (ürün bazlı, kategori bazlı)
+En çok iade edilen ürünler
+İade nedenleri analizi (sürekli sorun olan ürünler tespit edilebilecek)
