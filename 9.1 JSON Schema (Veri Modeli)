@@ -1,0 +1,112 @@
+9.1 JSON Schema (Veri Modeli)
+
+Aşağıda projenin veri modeli JSON Schema formatında sunulmuştur:
+
+JSON
+
+{
+  "entities": {
+    "User": {
+      "properties": {
+        "userId": "UUID",
+        "username": "String",
+        "email": "String",
+        "role": ["Administrator", "Operations", "Marketing", "Support"],
+        "createdAt": "DateTime"
+      }
+    },
+
+    "Customer": {
+      "properties": {
+        "customerId": "UUID",
+        "firstName": "String",
+        "lastName": "String",
+        "email": "String",
+        "phone": "String",
+        "createdAt": "DateTime"
+      }
+    },
+
+    "Product": {
+      "properties": {
+        "productId": "UUID",
+        "sku": "String",
+        "name": "String",
+        "category": "String",
+        "price": "Decimal",
+        "stock": "Integer",
+        "isActive": "Boolean"
+      }
+    },
+
+    "Order": {
+      "properties": {
+        "orderId": "UUID",
+        "customerId": "UUID",
+        "orderDate": "DateTime",
+        "status": [
+          "Pending",
+          "Processing",
+          "Shipped",
+          "Delivered",
+          "Cancelled"
+        ],
+        "totalAmount": "Decimal"
+      }
+    },
+
+    "OrderItem": {
+      "properties": {
+        "orderItemId": "UUID",
+        "orderId": "UUID",
+        "productId": "UUID",
+        "quantity": "Integer",
+        "unitPrice": "Decimal"
+      }
+    },
+
+    "Shipment": {
+      "properties": {
+        "shipmentId": "UUID",
+        "orderId": "UUID",
+        "carrier": "String",
+        "trackingNumber": "String",
+        "status": "String",
+        "shipmentDate": "DateTime"
+      }
+    },
+
+    "ReturnRequest": {
+      "properties": {
+        "returnId": "UUID",
+        "orderId": "UUID",
+        "customerId": "UUID",
+        "reason": "String",
+        "status": [
+          "Pending",
+          "Approved",
+          "Rejected"
+        ],
+        "requestedAt": "DateTime"
+      }
+    },
+
+    "Promotion": {
+      "properties": {
+        "promotionId": "UUID",
+        "name": "String",
+        "startDate": "DateTime",
+        "endDate": "DateTime",
+        "discountRate": "Decimal"
+      }
+    }
+  },
+
+  "relationships": {
+    "Customer -> Order": "1:N",
+    "Order -> OrderItem": "1:N",
+    "Product -> OrderItem": "1:N",
+    "Order -> Shipment": "1:1",
+    "Order -> ReturnRequest": "1:N"
+  }
+}
